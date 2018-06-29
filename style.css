@@ -1,0 +1,83 @@
+footer {
+font-family: 'Anton', sans-serif;
+color: red;
+font-size: 28px;  
+}
+
+body {
+text-align: center;
+font-family: 'Lato', sans-serif;
+background-image: url("https://mail.google.com/mail/u/0/?ui=2&ik=8923a2cb2c&view=fimg&th=1644823fd69f07ce&attid=0.1&disp=emb&realattid=ii_jiz0o7e60_16448238ed275a0a&attbid=ANGjdJ-DyQ2OlssETgl_Gf8ji9ztjCAr0AZHKs7XxCR6VYGF8hdMrMDbxMKdkuOVf0rKDW9od5gQVYEL9NBB4Z-s1u7hTAdz_E-pJvTxZ143R9jIS3Klntsdg7Fg9sI&sz=s0-l75-ft&ats=1530292002667&rm=1644823fd69f07ce&zw&atsh=1");
+/*background-size: 1440px 874px;*/
+color: white; /*white*/
+padding-top: 180px;
+font-size: 46px;
+/*background-repeat: no-repeat;*/
+
+  min-height: 500px;
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+#anwer {
+font-family: 'Spirax', cursive;
+font-size:230px ;
+text-align: center;
+}
+
+.button {
+width: 90px;
+height: 40px;
+
+}
+
+#i_in_range {
+font-size: 24px;
+}
+
+#new_decision {
+height: 300px;
+
+background: url("");
+background-image: url("https://gm1.ggpht.com/V2wlQijbvcZMtUx1YV56y58FK0wEJ05-cpRDzj1H4a3i82DceJXlmi9WreWB6jwtW1tM95s62H_H8s-QBQn6l4tmAl1wqJ6jFYVyFSzYVF6Ik3Dx95C80evAYqyTppT9pbVLarmBhjLW3gK4aawKGzu4dk6KeYbB28epdZVB8RbTz1a8AHwnjMrGWyMLoWHl5fFqH2TUOGlDZxZOL5jEn_URwzqWk-vOYxnagGAHkVKJo8S5k8QFdNn89ofpZiAv2owx-rQm8Q_TMdjQh7kdszWn5szVs9RyReObrv--1BnAvfTN-w2eyDsMAABQrzPELxINNjIUkpWkKekdBStuXTPCqPlnZEOBQU5HumyN83PIfDHVPeVZXlEnuqo9VkgaNU8IoTGu-GvhUz5kN1vODALuirNyqQiTWweCm06Ej6aCMCy58YKof6i4woEHLWTAu00lB_jvQJTvNqMCIVlDKVa6jzAGT0VTVWwPttct-WzbtZBad_rXPCzvwqGt_N6lIYWtLEykRnEL23xCQFT5_U5Fy0wUQ8pgNizlkQMPQvnAhFlYrKAqcWT76Y5PL7pjK097728_PkaNu4Wqom3mPw7nzJcfivQmoC-Qtv6-SEux_VV5KCZ2_S4lUt0PQFLkkBtFKyNIRJlz8fezcGRP9QbiEORxlUivhI0riglJPwGqDgtcPahkdbGAPkGvnsgmsQ=s0-l75-ft-l75-ft");
+}
+
+#new_desicion_button {
+padding-top: 50px;
+}
+
+h5 {
+ text-align: left;
+ padding-top: 3px;
+ padding-left: 100px;
+ color: black;
+}
+
+h4 {
+ text-align: left;
+ padding-left: 100px;
+ padding-bottom: 150px;
+ color: black;
+}
+
+a:link {
+ text-decoration: none;
+}
+
+#graphic {
+ float: left;
+}
+
+#abtus {
+ font-size: 30px;
+ padding-left: 600px;
+ padding-right:50px;
+ padding-top: 100px;
+ text-align: justify;
+}
