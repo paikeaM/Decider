@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cinzel+Decorative|Elsie|Elsie+Swash+Caps|Libre+Barcode+39+Extended|Milonga|Oregano|Lato" rel="stylesheet">
+    <title>Decider</title>
+  </head>
+  <div id="answer_page">
+    <%array = []%>
+    <%@params.keys.each do |num|%>
+      <%array.push(@params[num])%>
+    <%end%>
+    <p><div id="anwer"><%=array.shuffle[0]%></div></p>
+    
+    <img src="https://mail.google.com/mail/u/0/?ui=2&ik=8923a2cb2c&view=fimg&th=1644c623d80e5192&attid=0.1&disp=emb&realattid=ii_jj070feu5_1644c60ac5422e1e&attbid=ANGjdJ9J6QF_10PjvHEc0HBoKmlRf8C4svTbwohbSPc3Wae32nwjrvh-z5xQwAhe4aAo2CsrRWQ-asInjIUmJ-t-jFJB5pvJOODnBA9ltP0Cp-dLhIB1r7PgrtXjiGc&sz=w610-h608&ats=1530289864664&rm=1644c623d80e5192&zw&atsh=1" onClick= "history.go(0)" height="200" width="200" id = "new_desicion_button">
+  </div>
+</html>
