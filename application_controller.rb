@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'sinatra'
+
 class ApplicationController < Sinatra::Base
 
   configure do
