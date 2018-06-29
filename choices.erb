@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cinzel+Decorative|Elsie|Elsie+Swash+Caps|Libre+Barcode+39+Extended|Milonga|Oregano|Lato" rel="stylesheet">
+    <title>Decider</title>
+  </head>
+  <p>Please put your choices in these textboxes:</p>
+  <form method="POST" action="/answer">
+    <div id="i_in_range">
+    <%for i in 1..(@num)%>
+      <p><%=i%>. <input type = "text" style ="height: 24px; font-size: 20px;" name=<%=i%> ></p>
+    <%end%>
+    </div>
+    <input type="submit" VALUE = "Decide">
+  </form> 
+</html>
